@@ -1,0 +1,22 @@
+postgres_dsn: "SECRET"
+server_port: ":8080"
+secret_key_jwt: "SECRET"
+html_recovery_path: "static/recovery.html"
+html_new_pass_path: "static/new_pass.html"
+video_directory_path: "/root/video"
+
+server_email:
+  host: "smtp.yandex.ru"
+  port: "587"
+  login: "info@tarasova-school.ru"
+  pass: "SECRET"
+
+soc_auth:
+  vk_app_id: "SECRET"
+  vk_callback: "https://tarasova-school.ru/api/vk/callback"
+  vk_secret_key: "SECRET"
+
+telegram:
+  telegram_token: "SECRET"
+  chat_id: "-SECRET"
+  channel_id: "-SECRET"
